@@ -40,7 +40,7 @@ async function summarizeText(text: string): Promise<any> {
   const responseEnglish = await axios.post(
     apiUrl,
     {
-      model: 'gpt-3.5-turbo',
+      model: 'gpt-4',
       // max_tokens: 300,
       temperature: 0.7,
       top_p: 0.5,
@@ -65,7 +65,7 @@ async function summarizeText(text: string): Promise<any> {
   const responseKorean = await axios.post(
     apiUrl,
     {
-      model: 'gpt-3.5-turbo',
+      model: 'gpt-4',
       // max_tokens: 300,
       temperature: 0.7,
       top_p: 0.5,
